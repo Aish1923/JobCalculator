@@ -1,0 +1,68 @@
+$base-font-color: white;
+$base-app-color: rgb(174, 255, 36);
+$default-black: black;
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.table td,
+.table th {
+    font-size: 1rem;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 1rem 1rem;
+    display: table;
+    color: $base-font-color;
+}
+
+.container {
+    margin: 1rem;
+    color: $base-font-color;
+}
+
+.jobCost {
+    display: flex;
+    background-color: $base-app-color;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+
+.JobHeading {
+    background-color: $default-black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.content {
+    background-color: $default-black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.heading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.jobNumber {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: $base-font-color;
+}
